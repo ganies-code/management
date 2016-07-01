@@ -1,0 +1,106 @@
+/* 
+    Created on : 26 Jun, 2016, 8:22:57 PM
+    Author     : ganesh
+*/
+body{
+    background: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+}
+.top-nav-1{
+    padding: 9px;
+
+    background: #B9B9B9;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.top-nav-2{
+     padding: 20px 9px;
+    border-bottom: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0px 4px 0px -3px #ddd;
+    overflow: auto;
+    padding-bottom: 0px;
+    padding-top: 33px;
+}
+.container{
+    height: calc( 100% - 97px);
+
+}
+.side-nav{
+    width:240px;
+    box-shadow:  5px 4px 7px -5px #ddd;
+
+}
+.nav-option{
+    margin-top: 20px;
+
+
+}
+.side-nav{
+    overflow: scroll;  
+}
+
+.option-title{
+     font-weight: 300;
+    color: rgb(30, 97, 148);
+    margin: 20px;
+ 
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.option-tab{
+    i{
+        color:  #888;
+    }
+    font-weight: 300;
+    padding: 10px;
+    font-size: 13px;
+    color: #888;
+    padding-left: 35px;
+    cursor: pointer;
+}
+.option-tabs{
+    padding-top: 5px;
+}
+.option-tab:hover{
+    background: #eee;
+}
+.option-tab-text{
+    margin-left: 15px;
+    color:#444;
+}
+.tool-nav-link{
+      float: left;
+   
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #158;
+}
+.tool-nav-link:hover{
+    background: #f1f1f1
+}
+.scroll {
+
+    overflow: scroll;
+}
+.scroll::-webkit-scrollbar {
+    width: 0px;
+    background: #ccc;
+    height: 1px;
+}
+.card-header{
+       margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: #444;
+}
+
+.card-body{
+    background: #fff;
+    margin: 10px 0;
+    padding:  10px;
+
+}
+​
